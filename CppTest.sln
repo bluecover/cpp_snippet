@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string_substr_range", "stri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "include_and_forward_declaration", "include_and_forward_declaration\include_and_forward_declaration.vcproj", "{A9BF0A93-C495-4C7A-B6B5-244569E308DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assign_by_address_of_const_int", "assign_by_address_of_const_int\assign_by_address_of_const_int.vcproj", "{E36807CA-3EE7-4688-9C7C-D9F60CE8228C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -187,6 +189,10 @@ Global
 		{A9BF0A93-C495-4C7A-B6B5-244569E308DB}.Debug|Win32.Build.0 = Debug|Win32
 		{A9BF0A93-C495-4C7A-B6B5-244569E308DB}.Release|Win32.ActiveCfg = Release|Win32
 		{A9BF0A93-C495-4C7A-B6B5-244569E308DB}.Release|Win32.Build.0 = Release|Win32
+		{E36807CA-3EE7-4688-9C7C-D9F60CE8228C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E36807CA-3EE7-4688-9C7C-D9F60CE8228C}.Debug|Win32.Build.0 = Debug|Win32
+		{E36807CA-3EE7-4688-9C7C-D9F60CE8228C}.Release|Win32.ActiveCfg = Release|Win32
+		{E36807CA-3EE7-4688-9C7C-D9F60CE8228C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
