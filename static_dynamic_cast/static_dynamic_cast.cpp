@@ -38,15 +38,17 @@ class Baz
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    Bar* pb = new Bar;
-    FooBar* pfb_1 = (FooBar*)pb;
+  Bar* pb = new Bar;
+  FooBar* pfb_1 = (FooBar*)pb;
 
-    FooBar* pfb = new FooBar;
-    pfb->fun2();
-    pfb->fun5();
+  FooBar* pfb = new FooBar;
+  pfb->fun2();
+  pfb->fun5();
 
-    Baz* pbaz = static_cast<Baz*>(pb);
+  Baz* pbaz1 = static_cast<Baz*>(pb);
 
-	return 0;
+  // 没有类型信息的情况下dynamic_cast
+
+  return 0;
 }
 
