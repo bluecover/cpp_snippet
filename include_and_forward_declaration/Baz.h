@@ -1,4 +1,3 @@
-
 #include "Foo.h"
 #include "Bar.h"
 
@@ -8,7 +7,5 @@ private:
   int n_;
 public:
   Baz(int a, int b, int c, int d, int e, int f) 
-    : Foo(a,b), Bar(c, d), m_(e), n_(f) {
-
-  }
+    : Foo(a,b), Bar(c, d), m_(e), n_(f) {}
 };

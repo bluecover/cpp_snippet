@@ -1,13 +1,10 @@
 
 #pragma once
 
-#include "Foo.h"
-
 class Bar {
- private:
+private:
   int x_;
   int y_;
- public:
-  Bar(int c, int d) : x_(c), y_(d) { 
-  }
+public:
+  Bar(int c, int d) : x_(c), y_(d) {}
 };

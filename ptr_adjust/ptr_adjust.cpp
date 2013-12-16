@@ -7,6 +7,7 @@ class Base1
 {
 public:
     int m_base1_data;
+    int m_base1_data2;
 
     virtual ~Base1() {}
     virtual void fun_b1() {}

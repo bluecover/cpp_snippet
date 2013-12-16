@@ -1,10 +1,9 @@
 #pragma once
 
 class Foo {
- private:
+private:
   int i_;
   int j_;
- public:
+public:
   Foo(int i, int j) : i_(i), j_(j) {}
-
 };
