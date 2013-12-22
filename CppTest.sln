@@ -69,6 +69,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_equal", "operator_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_pass_by_reference", "template_pass_by_reference\template_pass_by_reference.vcproj", "{6ED4FEAC-E833-41EB-9011-DDDBB884AE8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointer_to_overload_functions", "pointer_to_overload_functions\pointer_to_overload_functions.vcproj", "{0B958714-B776-4A5C-845F-2C0E21EB3BFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expr_evaluate", "expr_evaluate\expr_evaluate.vcproj", "{CBB14E0E-7585-4D92-A470-7DA16FDC8436}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -211,6 +215,14 @@ Global
 		{6ED4FEAC-E833-41EB-9011-DDDBB884AE8A}.Debug|Win32.Build.0 = Debug|Win32
 		{6ED4FEAC-E833-41EB-9011-DDDBB884AE8A}.Release|Win32.ActiveCfg = Release|Win32
 		{6ED4FEAC-E833-41EB-9011-DDDBB884AE8A}.Release|Win32.Build.0 = Release|Win32
+		{0B958714-B776-4A5C-845F-2C0E21EB3BFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B958714-B776-4A5C-845F-2C0E21EB3BFA}.Debug|Win32.Build.0 = Debug|Win32
+		{0B958714-B776-4A5C-845F-2C0E21EB3BFA}.Release|Win32.ActiveCfg = Release|Win32
+		{0B958714-B776-4A5C-845F-2C0E21EB3BFA}.Release|Win32.Build.0 = Release|Win32
+		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Debug|Win32.Build.0 = Debug|Win32
+		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Release|Win32.ActiveCfg = Release|Win32
+		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
