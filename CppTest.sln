@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointer_to_overload_functio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expr_evaluate", "expr_evaluate\expr_evaluate.vcproj", "{CBB14E0E-7585-4D92-A470-7DA16FDC8436}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_template_partial_order", "function_template_partial_order\function_template_partial_order.vcproj", "{0F56748F-511D-49A1-96B5-E8725365DBEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -223,6 +225,10 @@ Global
 		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Debug|Win32.Build.0 = Debug|Win32
 		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Release|Win32.ActiveCfg = Release|Win32
 		{CBB14E0E-7585-4D92-A470-7DA16FDC8436}.Release|Win32.Build.0 = Release|Win32
+		{0F56748F-511D-49A1-96B5-E8725365DBEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F56748F-511D-49A1-96B5-E8725365DBEF}.Debug|Win32.Build.0 = Debug|Win32
+		{0F56748F-511D-49A1-96B5-E8725365DBEF}.Release|Win32.ActiveCfg = Release|Win32
+		{0F56748F-511D-49A1-96B5-E8725365DBEF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
