@@ -4,6 +4,7 @@
 *.idp
 echo_service/Debug
 Debug
+Release
 obj
 *.ncb
 *.suo
