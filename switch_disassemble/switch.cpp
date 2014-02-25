@@ -14,6 +14,8 @@ int guess() {
 }
 
 int main() {
+  int n = __alignof(__int64);
+
   int g = guess();
   if (g != 100)
     return g + 100;
@@ -27,7 +29,7 @@ int main() {
       printf("%d\n", 2);
       break;
     case 33:
-      printf("%d\n", baz(100,200));
+      printf("%d\n", baz(100,200)); 
       break;
     default:
       break;
