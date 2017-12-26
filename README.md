@@ -1,2 +1,2 @@
-cpp_test
+Simple samples to try C++ messes.
 ========
