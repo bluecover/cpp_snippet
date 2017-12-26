@@ -1,0 +1,48 @@
+#include <iostream>
+
+class Foo{
+public:
+    Foo(int x): x(x) {}
+    int f(char* c=0){
+        std::cout<<"Foo::f()"<<std::endl;
+        std::cout << this->x << std::endl;
+        return 1;
+    }
+private:
+    int x;
+};
+
+class Bar{
+public:
+    Bar(int x, int y): x(x), y(y){}
+    void b(int i=0){
+        std::cout<<"Bar::b()"<<std::endl;
+    }
+private:
+    int y;
+    int x;
+};
+
+class FooDerived:public Foo{
+public:
+    int f(char* c=0){
+        std::cout<<"FooDerived::f()"<<std::endl;
+        return 1;
+    }
+};
+
+int main(int argc, char* argv[]){
+    typedef  int (Foo::*FPTR) (char*);
+    typedef  void (Bar::*BPTR) (int);
+    typedef  int (FooDerived::*FDPTR) (char*);
+    
+    FPTR fptr = &Foo::f;
+    BPTR bptr = &Bar::b;
+    FDPTR fdptr = &FooDerived::f;
+    
+    //Bptr = static_cast<void (Bar::*) (int)> (fptr); //error
+    fdptr = static_cast<int (Foo::*) (char*)> (fptr); //OK: contravariance
+    
+    Bar obj(22, 11);
+    ( obj.*(BPTR) fptr )(1);//call: Foo::f()
+}
